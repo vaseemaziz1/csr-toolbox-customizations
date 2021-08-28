@@ -1,0 +1,15 @@
+{
+    "name": "csr-toolbox-translate",
+    "version": "1.0.0",
+    "description": "Tasks for exporting and importing translations",
+    "private": true,
+    "main": "Gruntfile.js",
+    "devDependencies": {
+        "grunt": "1.0.0",
+        "grunt-angular-gettext": "2.3.0"
+    },
+    "scripts": {
+        "export": "grunt nggettext_extract",
+        "import": "grunt nggettext_compile"
+    }
+}

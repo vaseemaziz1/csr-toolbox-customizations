@@ -1,0 +1,43 @@
+{
+    "roles": [
+        {
+            "role": "cn=csr_level1,ou=application-groups,o=blt,ou=sites,dc=qvantel,dc=net",
+	        "groups": [
+		"CSR_READ_ONLY",
+                "CSR_TOOLS_CASE"
+				
+            ]
+        },
+        {
+            "role": "cn=csr_admin,ou=application-groups,o=blt,ou=sites,dc=qvantel,dc=net",
+            "groups": [
+                "CSR_ALL",
+                "CSR_TOOLS_POS",
+                "CSR_TOOLS_CASE"
+
+            ]
+        },
+        {
+            "role": "cn=csr_admin,ou=groups,dc=qvantel,dc=com",
+            "groups": [
+                "CSR_ALL",
+                "CSR_TOOLS_POS",
+		"CSR_TOOLS_CASE"
+            ]
+        },
+        {
+            "role": "tester001@csr.com",
+            "groups": [
+                "CSR_ALL",
+                "CSR_TOOLS_POS"
+            ]
+        },
+        {
+            "role": "csr_agent",
+            "groups": [
+                "CSR_READ_ONLY"
+            ]
+        }
+
+   ]
+}
